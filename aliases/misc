@@ -1,0 +1,5 @@
+
+# Misc
+alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1])"'
+alias bsc='git add .; git commit -a -m "Bull Shit Commit"; git push origin master'
+

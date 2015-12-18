@@ -1,0 +1,2 @@
+
+alias ssh300='ssh-add -t 300'
