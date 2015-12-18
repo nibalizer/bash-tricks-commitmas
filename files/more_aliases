@@ -1,0 +1,15 @@
+[alias]
+  st        = status
+  chp       = cherry-pick
+  su        = submodule
+  sub       = submodule
+  sst       = submodule status
+  sup       = "!f() { git submodule sync; git submodule update; }; f"
+  co        = checkout
+  b         = branch
+  ba        = branch --all
+  ci        = commit
+  unstage   = reset HEAD --
+  last      = log -1 HEAD
+  pg        = log --pretty=format:'%h : %s' --graph
+  sgrep     = "!f() { git submodule foreach \"git grep '$1'; true\" | grep -B 1 \"$1\"; }; f"
