@@ -1,0 +1,6 @@
+wodim is a function
+wodim () 
+{ 
+    /usr/bin/wodim -v $1;
+    eject -T
+}

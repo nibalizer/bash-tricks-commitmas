@@ -1,0 +1,9 @@
+cleanfloat is a function
+cleanfloat () 
+{ 
+    for ip in `nova floating-ip-list | awk '/ - / {print $4}'`;
+    do
+        echo $ip;
+        nova floating-ip-delete $ip;
+    done
+}
