@@ -107,4 +107,5 @@ Spencer Krum
 * Engineer at IBM
 * OpenStack and Puppet contributor 
 * @nibalizer on pretty much everything
+* Code: https://github.com/nibalizer/bash-tricks
 
