@@ -1,14 +1,14 @@
 gerrit is a function
-gerrit () 
-{ 
+gerrit ()
+{
     username=`git config gitreview.username`;
     ssh -o VisualHostKey=no -p 29418 $username@review.openstack.org gerrit $*
 }
 
 
 gerrit is a function
-gerrit () 
-{ 
+gerrit ()
+{
     if [ $1 = "wip" ]; then
         commit_sha=`git rev-parse HEAD`;
         if [ -z $commit_sha ]; then
